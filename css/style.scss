@@ -1,0 +1,59 @@
+@import "global";
+
+#actions {
+  background: black;
+  text-align: center;
+
+  .actions {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+
+      color: #F1B864;
+    }
+
+    h2 {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 48px;
+      color: #FFFFFF;
+    }
+
+    h4 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 24px;
+      color: #F1B864;
+    }
+
+    &__star {
+      padding: 0 10px 0;
+    }
+
+    &__acardion {
+      padding: 5px 10px 0;
+    }
+
+    &__bored {
+      width: 411px;
+      height: 91px;
+      left: 70px;
+      top: 4475px;
+      border: 1px solid #BCBCBC;
+      border-radius: 13px;
+    }
+  }
+
+}
