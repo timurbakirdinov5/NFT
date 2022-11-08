@@ -2,11 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-<<<<<<< HEAD
-=======
-
-    <mapping directory="$PROJECT_DIR$/NFT" vcs="Git" />
-
->>>>>>> 5441eb6f9bc1634ceeb5b9830c309caa3e359cce
   </component>
 </project>
