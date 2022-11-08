@@ -9,6 +9,18 @@
 }
 a{
   text-decoration: none;
+
+  cursor: pointer;
+  color: white;
+}
+@mixin flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body{
+  font-family: 'Inter',sans-serif;
+
 }
 body{
   background: rgb(0, 0, 0);
@@ -17,4 +29,5 @@ body{
   display: flex;
 
   justify-content: space-between;
+
 }
