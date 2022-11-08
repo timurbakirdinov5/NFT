@@ -76,17 +76,8 @@ transition: .4s;
 
 $a:#D29C10;
 
-@mixin jin{
-  font-weight: 500;
-  font-size: 14px;
-  color: #D29C10;
-  flex-direction: row;
+@mixin df{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin: 20px;
-}
-@mixin pop{
-  width: 1211px;
-  height: 2px;
-  background: #727272;
 }
