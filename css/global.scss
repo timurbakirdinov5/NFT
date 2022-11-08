@@ -9,6 +9,7 @@
 }
 a{
   text-decoration: none;
+
   cursor: pointer;
   color: white;
 }
@@ -19,4 +20,14 @@ a{
 }
 body{
   font-family: 'Inter',sans-serif;
+
+}
+body{
+  background: rgb(0, 0, 0);
+}
+@mixin flex{
+  display: flex;
+
+  justify-content: space-between;
+
 }
