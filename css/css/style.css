@@ -7,53 +7,287 @@
 body {
   font-family: "Inter", sans-serif;
 }
+body .container {
+  width: 90%;
+  margin: 0 auto;
+}
+body a {
+  text-decoration: none;
+}
+body body {
+  background: rgb(0, 0, 0);
+}
 
 #actions {
   background: black;
   text-align: center;
 }
-#actions .actions {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#actions .actions--collection__line {
+  width: 66px;
+  height: 38px;
+  left: 275px;
+  top: 5083px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
 }
-#actions .actions h3 {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #F1B864;
-}
-#actions .actions h2 {
-  font-family: "Inter", sans-serif;
+#actions .actions--collection h1 {
+  color: #FFFFFF;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
-  color: #FFFFFF;
 }
-#actions .actions h4 {
-  font-style: normal;
+#actions .week {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#actions .week--say {
+  position: relative;
+}
+#actions .week--say__block1 {
+  width: 66px;
+  height: 38px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -340px;
+  top: 20px;
+}
+#actions .week--say__block2 {
+  clip-path: polygon(100% 0, 70% 53%, 100% 100%, 52% 76%, 0 100%, 34% 53%, 0 0, 50% 30%);
+  width: 26px;
+  height: 26px;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  margin-left: 1000px;
+}
+#actions .week--say__btn {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 12px 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 36px;
+  background: transparent;
+  margin: 40px 0;
+  transition: 0.4s;
+}
+#actions .week--say__btn:hover, #actions .week--say__btn:focus {
+  transform: scale(1.2);
+}
+#actions .week--text {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  align-items: center;
+  position: relative;
+}
+#actions .week--text__a {
+  clip-path: polygon(100% 0, 70% 53%, 100% 100%, 52% 76%, 0 100%, 34% 53%, 0 0, 50% 30%);
+  width: 16px;
+  height: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 200px;
+  top: 40px;
+}
+#actions .week--text__h2 {
   font-weight: 500;
-  font-size: 25px;
-  line-height: 24px;
+  font-size: 24px;
   color: #F1B864;
 }
-#actions .actions__star {
-  padding: 0 10px 0;
+#actions .week--text__sel {
+  font-weight: 500;
+  font-size: 40px;
+  color: #F7A659;
+  background: transparent;
+  border: none;
 }
-#actions .actions__acardion {
-  padding: 5px 10px 0;
+#actions .week--block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-#actions .actions__bored {
-  width: 411px;
-  height: 91px;
-  left: 70px;
-  top: 4475px;
+#actions .week--block__red {
+  width: 360px;
+  height: 80px;
   border: 1px solid #BCBCBC;
   border-radius: 13px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  transition: 0.4s;
+}
+#actions .week--block__red:hover, #actions .week--block__red:focus {
+  transform: scale(1.1);
+}
+#actions .week--block__red ol {
+  font-size: 26px;
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+#actions .week--block__red ol li .go {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-top: 12px;
+}
+#actions .week--block__red ol li .go--see {
+  position: relative;
+  width: 55px;
+  height: 55px;
+}
+#actions .week--block__red ol li .go--see__a {
+  width: 10px;
+  height: 10px;
+  background: #21D605;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+#actions .week--block__red ol li .go--see__img2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#actions .week--block__red ol li .go--let h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding-bottom: 9px;
+}
+#actions .week--block__red ol li .go--let p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+#actions .week--block__red ol li .go--put {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#actions .week--block__red ol li .go--put span {
+  font-weight: 500;
+  font-size: 13px;
+  color: #21D605;
+}
+#actions .week--block__red ol li .go--put__know--icon {
+  font-size: 16px;
+  color: white;
+}
+#actions .week--block__red ol li .go--put__know span {
+  font-weight: 500;
+  font-size: 13px;
+  color: #DC9752;
+}
+
+#Family {
+  background: black;
+}
+#Family .Family--create__sell {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#Family .Family--create__sell h2 {
+  color: #F1B864;
+}
+#Family .Family--create__sell h3 {
+  color: #F1B864;
+}
+#Family .Family--create__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+#Family .Family--create__star {
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -124px;
+}
+#Family .Family--create__liner {
+  position: absolute;
+  width: 199px;
+  height: 47px;
+  border: 1px solid #A7A7A7;
+  border-radius: 39px;
+}
+#Family .Family--create__liner2 {
+  border: 1px solid #A7A7A7;
+  position: absolute;
+  width: 32px;
+  height: 31px;
+  border-radius: 50%;
+  margin-left: 1000px;
+}
+#Family .Family--create__liner3 {
+  margin-left: 300px;
+}
+
+.swiper {
+  width: 100%;
+  height: 90%;
+}
+
+.mySwiper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-pagination {
+  margin-top: 40px;
+}
+
+.swiper-button-prev {
+  left: 44px;
+  width: 111px;
+}
+
+.swiper-button-next {
+  width: 111px;
+  right: 40px;
+  left: auto;
+}
+
+.swiper-slide {
+  border-radius: 25px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
