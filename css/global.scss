@@ -3,10 +3,72 @@
   margin: 0;
   padding: 0;
 }
-body{
-  background: black;
-}
 .container{
   width: 90%;
   margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+@mixin flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body{
+  font-family: 'Inter',sans-serif;
+
+}
+body{
+  background: rgb(0, 0, 0);
+}
+@mixin flex{
+  display: flex;
+
+  justify-content: space-between;
+}
+@mixin hux{
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+@mixin wallet{
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+@mixin setup{
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+
+
+}
+@mixin color{
+  font-weight: 500;
+  font-size: 24px;
+  color: #F1B864;
+  display: flex;
+  justify-content: center;
+}
+
+$a:#D29C10;
+
+@mixin jin{
+  font-weight: 500;
+  font-size: 14px;
+  color: #D29C10;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+@mixin pop{
+  width: 1211px;
+  height: 2px;
+  background: #727272;
 }
