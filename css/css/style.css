@@ -28,10 +28,6 @@ body {
   align-items: center;
 }
 
-.swiper-pagination {
-  margin-top: 40px;
-}
-
 .swiper-button-prev {
   left: 44px;
   width: 111px;
@@ -65,6 +61,33 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#NFTs .NFTs--svg {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 0 0;
+}
+#NFTs .NFTs--svg2 {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#NFTs .NFTs--block {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#NFTs .NFTs--block h5 {
+  color: white;
+}
+#NFTs .NFTs--block h6 {
+  color: white;
+}
+#NFTs .NFTs--block img {
+  width: 250px;
+  padding: 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

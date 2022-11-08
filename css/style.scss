@@ -1,26 +1,30 @@
 @import "global";
 @import "media";
+
 .swiper {
   width: 100%;
   height: 90%;
 }
-.mySwiper{
+
+.mySwiper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.swiper-pagination{
-  margin-top: 40px;
-}
-.swiper-button-prev{
+
+
+
+.swiper-button-prev {
   left: 44px;
   width: 111px;
 }
-.swiper-button-next{
+
+.swiper-button-next {
   width: 111px;
   right: 40px;
   left: auto;
 }
+
 .swiper-slide {
   border-radius: 25px;
   background: #fff;
@@ -43,4 +47,38 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#NFTs {
+  .NFTs {
+    &--svg {
+      @include flex;
+      padding: 100px 0 0 0;
+    }
+
+    &--svg2 {
+      padding: 70px 0;
+      @include flex;
+    }
+
+    &--block {
+      width: 1100px;
+      @include flex;
+      flex-wrap: wrap;
+      h5{
+        color: white;
+      }
+      h6{
+        color: white;
+      }
+      img {
+        width: 250px;
+        padding: 20px 0;
+      }
+      &__blocks {
+
+
+      }
+    }
+  }
 }

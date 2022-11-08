@@ -13,3 +13,8 @@ a{
 body{
   background: rgb(0, 0, 0);
 }
+@mixin flex{
+  display: flex;
+
+  justify-content: space-between;
+}
