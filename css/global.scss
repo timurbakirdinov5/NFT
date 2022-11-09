@@ -17,8 +17,52 @@ body {
 
 a {
   text-decoration: none;
+
+
   cursor: pointer;
   color: white;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ 
+
+
+@mixin btn {
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 30px;
+  border: none;
+  transition: .4s;
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    background: transparent;
+    border: 1px dashed #1A5CFF;
+  }
+}
+
+@mixin flex {
+body{
+  background: rgb(0, 0, 0);
+}
+@mixin flex{
+  display: flex;
+
+  justify-content: space-between;
+}
+  font-family: 'Inter',sans-serif;
+
+
+  cursor: pointer;
+  color: white;
+
 }
 
 @mixin flex {
@@ -92,7 +136,7 @@ $a: #D29C10;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px;
+margin: 20px;
 }
 
 @mixin pop {
