@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
+body {
+  background: black;
+}
+
+=======
+>>>>>>> 5441eb6f9bc1634ceeb5b9830c309caa3e359cce
 .container {
   width: 90%;
   margin: 0 auto;
