@@ -28,6 +28,14 @@ a {
   align-items: center;
 }
 body{
+  background: rgb(0, 0, 0);
+}
+@mixin flex{
+  display: flex;
+
+  justify-content: space-between;
+}
+=======
   font-family: 'Inter',sans-serif;
 
 
