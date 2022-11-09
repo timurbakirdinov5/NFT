@@ -1,4 +1,5 @@
 @import "global";
+@import "media";
 
 
 
@@ -268,12 +269,21 @@
   width: 100%;
   height: 90%;
 }
+.mySwiper{
 
 .mySwiper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.swiper-pagination{
+  margin-top: 40px;
+}
+.swiper-button-prev{
+  left: 44px;
+  width: 111px;
+}
+.swiper-button-next{
 
 
 
@@ -310,6 +320,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
 }
 
 #NFTs {
