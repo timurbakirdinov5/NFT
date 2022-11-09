@@ -17,8 +17,23 @@ body {
 
 a {
   text-decoration: none;
+
+
   cursor: pointer;
   color: white;
+}
+@mixin flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body{
+  font-family: 'Inter',sans-serif;
+
+
+  cursor: pointer;
+  color: white;
+
 }
 
 @mixin flex {
@@ -92,6 +107,9 @@ $a: #D29C10;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+
+
   margin: 20px;
 }
 
@@ -101,3 +119,4 @@ $a: #D29C10;
   background: #727272;
 }
 }
+
